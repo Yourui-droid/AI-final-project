@@ -1,6 +1,6 @@
 ## Author
 - Aishwarya Pawar, GMBA, Yuan Ze University, Taiwan :contentReference[oaicite:2]{index=2}
-- - **Yourui Feng** (Student ID: 1137141), GMBA, Yuan Ze University, Taiwan :contentReference[oaicite:1]{index=1}  
+- **Yourui Feng** (Student ID: 1137141), GMBA, Yuan Ze University, Taiwan :contentReference[oaicite:1]{index=1}  
 - Qazi Mazhar Ul Haq, Assistant Professor, Yuan Ze University, Taiwan :contentReference[oaicite:3]{index=3}  
 
 ---
