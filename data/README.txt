@@ -5,3 +5,4 @@ Dataset Information / Link
 - File format: (e.g., CSV / images / text)
 - Target / task: (e.g., classification / prediction / clustering)
 - Preprocessing: Basic cleaning and formatting as implemented in the project code/notebook.
+The final project report is available in `docs/AI-IEEE paper Report.pdf`.
