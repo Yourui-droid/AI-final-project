@@ -3,6 +3,7 @@ from sklearn.datasets import load_iris
 from sklearn.cluster import KMeans
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.metrics import silhouette_score
+import os
 
 # Load dataset
 data = load_iris()
@@ -23,9 +24,9 @@ labels_lda = kmeans_lda.fit_predict(X_lda)
 # Evaluation
 score = silhouette_score(X_lda, labels_lda)
 
-# Save results
+os.makedirs("results", exist_ok=True)
 with open("results/output.txt", "w") as f:
-    f.write("Clustering with LDA-based embedding\n")
+    f.write("CLARA-style clustering result\n")
     f.write(f"Silhouette score: {score:.4f}\n")
 
 print("Finished. Silhouette score:", score)
