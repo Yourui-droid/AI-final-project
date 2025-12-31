@@ -58,3 +58,11 @@ This repository contains all materials required to reproduce the project:
 ### Installation
 ```bash
 pip install -r requirements.txt
+## How to Reproduce Results
+
+1. Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/AI-final-project.git
+cd AI-final-project
+pip install -r requirements.txt
+python main.py
