@@ -1,4 +1,4 @@
-# Datasets (Download Links & Description)
+# Datasets (Download Links and Description)
 
 This project uses 4 retail-related datasets.  
 To keep the GitHub repository lightweight, **raw dataset files are NOT uploaded**.  
