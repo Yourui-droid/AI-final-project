@@ -7,9 +7,7 @@ The goal is to improve retail customer/product clustering by combining:
 - Re-clustering in the LDA space
 - Evaluation using Elbow and Silhouette score
 - Visualization using PCA 2D and LDA 2D
-
 ---
-
 ## Repository Structure
 
 ```text
@@ -21,6 +19,7 @@ AI-final-project/
   requirements.txt
   .gitignore
   README.md
+---
 ## Environment Setup
 
 ```bash
