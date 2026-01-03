@@ -24,3 +24,23 @@ AI-final-project/
   requirements.txt
   .gitignore
   README.md
+## Environment Setup
+
+```bash
+pip install -r requirements.txt
+
+---
+
+### 2) How to Run（怎麼跑）
+你需要把「notebooks 的正確順序」寫出來（用你 repo 真實檔名）。先放模板也行：
+
+```md
+## How to Run (Reproducibility)
+
+### Option 1: Run notebooks (recommended)
+Run notebooks in order:
+
+1. `notebooks/[YOUR_1ST_NOTEBOOK].ipynb`
+2. `notebooks/[YOUR_2ND_NOTEBOOK].ipynb`
+3. `notebooks/[YOUR_3RD_NOTEBOOK].ipynb`
+4. `notebooks/[YOUR_4TH_NOTEBOOK].ipynb`
