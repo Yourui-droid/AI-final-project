@@ -1,11 +1,16 @@
-# AI Final Project – CLARA (K-Means + LDA Embedding)
+# CLARA: A Lightweight Contrastive Embedding Approach for Retail E-Commerce Clustering
 
-This repository contains my **individual** implementation for the final project (Week 17). The goal is to improve retail customer/product clustering by combining:
+This repository contains my **individual implementation** for the AI final project.  
+The project is based on the CLARA framework proposed in our paper and focuses on improving
+retail and e-commerce customer/product clustering through a lightweight contrastive
+embedding pipeline.
 
-- Baseline K-Means  
+The proposed approach integrates:
+
+- Baseline K-Means clustering  
 - LDA projection using K-Means pseudo-labels  
-- Re-clustering in the LDA space  
-- Evaluation using Elbow and Silhouette score  
+- Re-clustering in the LDA embedding space  
+- Evaluation using Elbow and Silhouette scores  
 - Visualization using PCA 2D and LDA 2D  
 
 ---
@@ -14,21 +19,10 @@ This repository contains my **individual** implementation for the final project 
 
 ```text
 AI-final-project/
-  dataset/                 # dataset download links + features + notes
-  notebooks/               # runnable notebooks
+  dataset/                 # dataset download links + feature descriptions + notes
+  notebooks/               # runnable Jupyter notebooks (main implementation)
   results/
-    figures/               # output plots
-  requirements.txt
+    figures/               # output plots and visualizations
+  requirements.txt         # Python dependencies
   .gitignore
   README.md
-git clone https://github.com/Yourui-droid/AI-final-project.git
-cd AI-final-project
-
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# macOS/Linux:
-# source .venv/bin/activate
-
-pip install -r requirements.txt
-::contentReference[oaicite:0]{index=0}
