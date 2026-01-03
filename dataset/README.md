@@ -2,72 +2,78 @@
 
 This project uses 4 retail-related datasets.  
 To keep the GitHub repository lightweight, **raw dataset files are NOT uploaded**.  
-Please download datasets from the links below and place them into the correct folder.
+Please download datasets from the links below and place them under `dataset/raw/`.
 
 ## Folder Structure
-After downloading, put the raw files here:
-
 dataset/raw/
   mall_customers.csv
   amazon.csv
   flipkart.csv
   walmart.csv
 
-(If your filenames are different, either rename them as above or update paths in the notebooks.)
-
 ---
 
 ## 1) Mall Customers Dataset
-- Source: [PASTE YOUR LINK HERE]
-- File name (recommended): `mall_customers.csv`
-- Main features used:
-  - Gender
+- Source: [PUT DOWNLOAD LINK HERE]
+- Expected size: (200, 3)
+- Features used (numeric):
   - Age
   - Annual Income (k$)
-  - Spending Score (1-100)
-- Preprocessing notes:
-  - Handle missing values (if any)
-  - Encode categorical feature(s)
-  - Standardize numeric features before clustering
+  - Spending Score (1–100)
+- Notes:
+  - Remove missing values if any
+  - Standardize features (zero mean, unit variance) before clustering
 
 ---
 
-## 2) Amazon Dataset
-- Source: [PASTE YOUR LINK HERE]
-- File name (recommended): `amazon.csv`
-- Main features used:
-  - [PASTE FEATURES YOU USED]
-- Preprocessing notes:
-  - Remove/handle missing values
-  - Convert price/rating fields to numeric if needed
-  - Standardize numeric features before clustering
-
----
-
-## 3) Flipkart Dataset
-- Source: [PASTE YOUR LINK HERE]
-- File name (recommended): `flipkart.csv`
-- Main features used:
-  - [PASTE FEATURES YOU USED]
-- Preprocessing notes:
+## 2) Amazon Sales Dataset
+- Source: [PUT DOWNLOAD LINK HERE]
+- Expected size: (1462, 5)
+- Features used (numeric):
+  - discounted price
+  - actual price
+  - discount percentage
+  - rating
+  - number of ratings
+- Notes:
   - Remove/handle missing values
   - Convert price fields to numeric if needed
-  - Standardize numeric features before clustering
+  - Standardize features before clustering
 
 ---
 
-## 4) Walmart Dataset
-- Source: [PASTE YOUR LINK HERE]
-- File name (recommended): `walmart.csv`
-- Main features used:
-  - [PASTE FEATURES YOU USED]
-- Preprocessing notes:
-  - Remove/handle missing values
-  - Standardize numeric features before clustering
+## 3) Flipkart Laptops Dataset
+- Source: [PUT DOWNLOAD LINK HERE]
+- Expected size: (414, 5)
+- Features used (numeric):
+  - Selling Price
+  - MRP
+  - Discount
+  - Ratings
+  - Number of Ratings
+- Notes:
+  - Clean monetary format / text if needed
+  - Standardize features before clustering
+
+---
+
+## 4) Walmart Sales (45 Stores) Dataset
+- Source: [PUT DOWNLOAD LINK HERE]
+- Expected size: (6435, 6)
+- Features used (numeric):
+  - Weekly Sales
+  - Holiday Flag
+  - Temperature
+  - Fuel Price
+  - CPI
+  - Unemployment rate
+- Notes:
+  - Remove missing values
+  - Standardize features before clustering
 
 ---
 
 ## Expected Output
 After running the pipeline/notebooks, results will be saved to:
 - `results/figures/` (visualizations)
-- (optional) `results/metrics/` (silhouette scores, elbow values)
+- (optional) `results/metrics/` (silhouette / elbow tables)
