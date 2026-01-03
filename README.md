@@ -14,13 +14,10 @@ The goal is to improve retail customer/product clustering by combining:
 
 ```text
 AI-final-project/
-  dataset/
-    README.md              # dataset download links + features + notes
-    raw/                   # (not uploaded) put downloaded csv files here
+  dataset/                 # dataset download links + features + notes
   notebooks/               # runnable notebooks
   results/
     figures/               # output plots
-    metrics/               # (recommended) csv tables for elbow/silhouette
   requirements.txt
   .gitignore
   README.md
