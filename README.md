@@ -21,3 +21,16 @@ AI-final-project/
   requirements.txt
   .gitignore
   README.md
+## Environment Setup
+
+```bash
+git clone https://github.com/Yourui-droid/AI-final-project.git
+cd AI-final-project
+
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+# source .venv/bin/activate
+
+pip install -r requirements.txt
