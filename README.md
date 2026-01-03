@@ -24,7 +24,12 @@ AI-final-project/
   requirements.txt
   .gitignore
   README.md
+
+---
+
+```md
 ## Environment Setup
 
 ```bash
 pip install -r requirements.txt
+python --version
