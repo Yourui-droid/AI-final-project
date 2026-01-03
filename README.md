@@ -26,3 +26,16 @@ AI-final-project/
   requirements.txt         # Python dependencies
   .gitignore
   README.md
+---
+
+## Results Summary
+
+The CLARA pipeline improves clustering separability compared to baseline K-Means,
+as demonstrated by higher silhouette scores and clearer cluster boundaries
+in the LDA embedding space.
+
+---
+
+## Instruction Manual (PDF)
+
+- `AI-final-project_Instruction-Manual_You-Rui-Feng_1137141.pdf`
