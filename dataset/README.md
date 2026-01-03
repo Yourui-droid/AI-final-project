@@ -77,3 +77,9 @@ dataset/raw/
 After running the pipeline/notebooks, results will be saved to:
 - `results/figures/` (visualizations)
 - (optional) `results/metrics/` (silhouette / elbow tables)
+---
+dataset/raw/
+  mall_customers.csv
+  amazon.csv
+  flipkart.csv
+  walmart.csv
