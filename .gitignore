@@ -1,0 +1,30 @@
+# ===== Python cache =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===== Jupyter / IPYNB =====
+.ipynb_checkpoints/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Virtual env =====
+venv/
+.venv/
+env/
+
+# ===== Logs =====
+*.log
+
+# ===== Data (avoid uploading large raw datasets) =====
+dataset/raw/
+dataset/*.csv
+dataset/*.xlsx
+dataset/*.json
+
+# ===== Results (keep figures, ignore other heavy outputs if any) =====
+results/tmp/
+results/cache/
