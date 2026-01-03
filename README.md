@@ -24,26 +24,3 @@ AI-final-project/
   requirements.txt
   .gitignore
   README.md
-## Environment Setup
-
-```bash
-pip install -r requirements.txt
-python --version
-## How to Run (Reproducibility)
-
-### Option 1: Run notebooks (recommended)
-
-1. Download datasets and place them under `dataset/raw/` (see `dataset/README.md`).
-2. Open and run notebooks in order:
-
-   1) `notebooks/01_preprocess.ipynb`  
-   2) `notebooks/02_kmeans_baseline.ipynb`  
-   3) `notebooks/03_lda_projection.ipynb`  
-   4) `notebooks/04_kmeans_on_lda_and_eval.ipynb`
-
-### Option 2: Run a single script (if available)
-
-If a pipeline script is provided (e.g., `src/run_pipeline.py`), run:
-
-```bash
-python src/run_pipeline.py --dataset all
