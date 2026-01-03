@@ -33,3 +33,8 @@ python -m venv .venv
 # source .venv/bin/activate
 
 pip install -r requirements.txt
+## Instruction Manual (PDF)
+- `AI-final-project_Instruction-Manual_You-Rui-Feng_1137141.pdf`
+---
+## Instruction Manual (PDF)
+- `AI-final-project_Instruction-Manual_You-Rui-Feng_1137141.pdf`
